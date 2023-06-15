@@ -1,5 +1,5 @@
 {
-  "name": "zod-message-bus",
+  "name": "websocket-message-typing",
   "version": "0.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -11,7 +11,7 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "ci": "pnpm run test && pnpm run build",
-    "release": "pnpm run test && pnpm run build && changeset publish"
+    "release": "pnpm run test && pnpm run build && pnpm changeset publish"
   },
   "keywords": [],
   "author": "",
