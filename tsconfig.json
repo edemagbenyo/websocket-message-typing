@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-      "target": "ES5",
+      "target": "es2016",
+      "module": "CommonJS",
       "outDir": "./dist",
       "rootDir": "./src",
-      "noEmitOnError": false,
-      "lib": ["es5","DOM","ES2015.Collection"],
-      "sourceMap":true
+      "sourceMap":true,
+      "noEmit": true
 } }
